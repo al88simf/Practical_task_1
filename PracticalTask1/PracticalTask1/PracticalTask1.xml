@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalTask1</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalTask1.Program">
+            <summary>
+            Класс Program обеспечивает преобразование в двоичную, восьмеричную и 
+            шестнадцатеричную системы счисления.
+            </summary>
+            <remarks>
+            Класс принимает число и номер основания системы счисления, проверяет корректность
+            ввода и повторяется, если ввод не верен. Далее выполняет преобразование 
+            введенного числа по выбранной системе счисления с помощью операции деления
+            с остатком. Выводит на консоль результат с использованием массивов.
+            </remarks>
+        </member>
+        <member name="M:PracticalTask1.Program.Main(System.String[])">
+            <summary>
+            Точка входа в программу.
+            </summary>
+            <param name="args">Список аргументов для командной строки.</param>
+        </member>
+        <member name="M:PracticalTask1.Program.Add(System.Int32,System.Int32[])">
+            <summary>
+            Добавляет в массив результаты вычислений в обратном порядке 
+            (начиная с последнего числа).
+            </summary>
+            <param name="item">Принимает результат вычислений.</param>
+            <param name="numbers">Принимает пустой массив.</param>
+            <returns>
+            Возвращает многократно заполненный массив.
+            </returns>
+        </member>
+        <member name="M:PracticalTask1.Program.Reverse(System.Int32[])">
+            <summary>
+            Переворачивает массив для правильного вывода.
+            </summary>
+            <param name="nums">Принимает массив, заполненный результатами в
+            обратном порядке.</param>
+            <returns>
+            Возвращает перевернутый массив.
+            </returns>
+        </member>
+        <member name="M:PracticalTask1.Program.AddHex(System.Int32[])">
+            <summary>
+            Меняет некоторые результаты на символы шестнадцатеричного кода.
+            </summary>
+            <param name="numbers">Принимает пустой массив.</param>
+            <returns>
+            Возворащает заполненный массив.
+            </returns>
+        </member>
+        <member name="M:PracticalTask1.Program.ReverseHex(System.String[])">
+            <summary>
+            Переворачивает шестнадцатеричный массив для правильного отображения.
+            </summary>
+            <param name="hexNums">Принимает массив, заполненный результатами в 
+            обратном порядке.</param>
+            <returns>
+            Возвращает переверернутый массив.
+            </returns>
+        </member>
+    </members>
+</doc>
